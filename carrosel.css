@@ -1,0 +1,27 @@
+.destaques{
+    background: #a4f276 !important;
+    color: rgb(0, 0, 0);
+    padding: 18px 0;
+    overflow: hidden;
+    max-height: 70px;
+    width: 100%;
+}
+.destaque-trilha{
+    display: flex;
+    width: max-content;
+    animation: rolar 25s linear infinite;
+}   
+.destaque-trilha:hover{
+    animation-play-state: paused;
+}
+@keyframes rolar {
+    to{
+        transform: translateX(-50%);
+    }
+}
+.destaque-trilha span{
+    text-align: center;
+    font-weight: 600;
+    flex: 0 0 160px;
+    font-size: 1.8rem;
+}
