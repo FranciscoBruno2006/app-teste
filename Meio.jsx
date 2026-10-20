@@ -1,10 +1,10 @@
-
+import './meio.css'
 function Meio() {
   return (
-    <section className="container-fluid text-center text-white py-5">
+    <section className="container-fluid text-center text-white py-5 meio">
       <div className="d-flex flex-column align-items-center gap-4 py-5">
 
-        <h1 className="display-1 fw-bold fst-italic">
+        <h1 className="display-1 fw-bold fst-italic titulo">
           Crie livremente
         </h1>
 
